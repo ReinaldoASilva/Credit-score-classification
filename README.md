@@ -27,11 +27,19 @@
 
 ## Data Exploration
 
-I will start by exploring the occupation feature to know if the occupation of the person affects credit scores.
+- I will start by exploring the occupation feature to know if the occupation of the person affects credit scores.
 
 ![alt text](Credit Score based on ocupation.png)
 
+- There's no much difference in the credit scores of all occupations mentioned in the data
 
+----------------------------------------------------------------------------------------
+
+- Now let's explore whether the annual income of the person impacts your credit scores or not.
+
+![alt text](Annual income.png )
+
+- According to the above visualization, the more earn annually, the better your credit score is.
 
 
 
