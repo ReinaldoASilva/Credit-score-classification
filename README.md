@@ -182,7 +182,7 @@
 
 ## Dataset
  
-![alt text](https://statso.io/credit-score-classification-case-study/)
+![text do link](https://statso.io/credit-score-classification-case-study/)
 
 
 
