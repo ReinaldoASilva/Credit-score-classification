@@ -136,3 +136,53 @@
 - So having a high monthly balance in your account at the end of the month is good for your credit scores.A Monthly balance of lesse than $250 is bad for credit scores.
 
 ----------------------------------------------------------------------------------------
+
+
+- Now, let’s make predictions from our model by giving inputs to our model according to the features we used to train the model:
+
+- print("Credit Score Prediction : ")
+- a = float(input("Annual Income: "))
+- b = float(input("Monthly Inhand Salary: "))
+- c = float(input("Number of Bank Accounts: "))
+- d = float(input("Number of Credit cards: "))
+- e = float(input("Interest rate: "))
+- f = float(input("Number of Loans: "))
+- g = float(input("Average number of days delayed by the person: "))
+- h = float(input("Number of delayed payments: "))
+- i = input("Credit Mix (Bad: 0, Standard: 1, Good: 3) : ")
+- j = float(input("Outstanding Debt: "))
+- k = float(input("Credit History Age: "))
+- l = float(input("Monthly Balance: "))
+
+- features = np.array([[a, b, c, d, e, f, g, h, i, j, k, l]])
+- print("Predicted Credit Score = ", model.predict(features))
+
+----------------------------------------------------------------------------------------
+
+- Credit Score Prediction : 
+- Annual Income: 19114.12
+- Monthly Inhand Salary: 1824.843333
+- Number of Bank Accounts: 2
+- Number of Credit cards: 2
+- Interest rate: 9
+- Number of Loans: 2
+- Average number of days delayed by the person: 12
+- Number of delayed payments: 3
+- Credit Mix (Bad: 0, Standard: 1, Good: 3) : 3
+- Outstanding Debt: 250
+- Credit History Age: 200
+- Monthly Balance: 310
+- Predicted Credit Score =  ['Good']
+
+----------------------------------------------------------------------------------------
+
+## Summary
+
+- Classifying customers based on their credit scores helps banks and credit card companies immediately to issue loans to customers with good creditworthiness. A person with a good credit score will get loans from any bank and financial institution.
+
+
+
+
+
+
+
