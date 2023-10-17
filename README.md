@@ -29,7 +29,7 @@
 
 I will start by exploring the occupation feature to know if the occupation of the person affects credit scores.
 
-![alt text](Credit Score based on ocupation.png)
+![alt text](ocupation.png)
 
 
 
