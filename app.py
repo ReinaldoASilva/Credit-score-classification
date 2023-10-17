@@ -30,7 +30,7 @@ fig = px.box(data,
             color_discrete_map={'Poor':"red",
                                 "Standard":"yellow",
                                 "Good":"green"})
-fig.show()
+fig.show(height=1000, width=1200)
 # There's no much difference in the credit scores of all occupations mentioned in the data
 
 #--------------------------------------------------------------------------------------------------------------------------
@@ -46,7 +46,7 @@ fig = px.box(data,
                                 "Good":"green"})
 
 fig.update_traces(quartilemethod="exclusive")
-fig.show()
+fig.show(height=1000, width=1200)
 #According to the above visualization, the more earn annually, the better your credit score is.
 
 #--------------------------------------------------------------------------------------------------------------------------
@@ -62,7 +62,7 @@ fig =px.box(data,
                                 "Good":"green"})
 
 fig.update_traces(quartilemethod="exclusive")
-fig.show()
+fig.show(height=1000, width=1200)
 # Like annual income, the more monthly in-hand salary you earn, the better your credit score will become
 
 #--------------------------------------------------------------------------------------------------------------------------
@@ -78,7 +78,7 @@ fig = px.box(data,
                                 "Good":"green"})
 
 fig.update_traces(quartilemethod="exclusive")
-fig.show()
+fig.show(height=1000, width=1200)
 # Maintaining more that five account is not good for having a good credit score. A person should have 2 or 3\
 # bank accounts only. So having more bank accounts doesn't positively  impact credit scores.
 
@@ -94,7 +94,7 @@ fig = px.box(data,
                                 "Standard":"yellow",
                                 "Good":"green"})
 fig.update_traces(quartilemethod="exclusive")
-fig.show()
+fig.show(height=1000, width=1200)
 # Just like the number of banks accounts, having more credit cards will not possitively impat your credit scores.\
 # Having more than three credit card does not improve your credit score. It can even negatively affect it.
 
@@ -110,7 +110,7 @@ fig = px.box(data,
                                 "Standard":"yellow",
                                 "Good":"green"})
 fig.update_traces(quartilemethod="exclusive")
-fig.show()
+fig.show(height=1000, width=1200)
 # If average interest rate is 4% a 11% the credit score is good. Having an average interest rate of more than 15%\
 # is bad for your credit scores.
 
@@ -126,7 +126,7 @@ fig=px.box(data,
                                 "Standard":"yellow",
                                 "Good":"green"})
 fig.update_traces(quartilemethod="exclusive")
-fig.show()
+fig.show(height=1000, width=1200)
 # To have a good credit score, you should not take more than 1 - 3 loans at a time. Having more than three loans at a time\
 # will negatively impact your credit scores
 
@@ -142,7 +142,7 @@ fig=px.box(data,
                                 "Standard":"yellow",
                                 "Good":"green"})
 fig.update_traces(quartilemethod="exclusive")
-fig.show()
+fig.show(height=1000, width=1200)
 # So you can delay your credit card payment 5 - 14 days from the due date. Delaying your payments for more than 17 days\
 # from the due date will impact your credit score negativelly.
 
@@ -158,7 +158,7 @@ fig = px.box(data,
                                 "Standard":"yellow",
                                 "Good":"green"})
 fig.update_traces(quartilemethod="exclusive")
-fig.show()
+fig.show(height=1000, width=1200)
 # So delaying 4 - 12 payments from the due date will no affect your credit scores. But delaying more than 12 payments\
 # from the due date will affect your credit scores negatively
 
@@ -169,12 +169,13 @@ fig = px.box(data,
             x="Credit_Score",
             y="Outstanding_Debt",
             color="Credit_Score",
+            title="Outstanding_Debt vs Credit Score",
             color_discrete_map={"Poor":"red",
                                 "Standard":"yellow",
                                 "Good":"green"})
 
 fig.update_traces(quartilemethod="exclusive")
-fig.show()
+fig.show(height=1000, width=1200)
 # An outstanding debt of $380 - $1150 will not affect your credit scores.  But always having a debit of more tha $1338\
 # will affect your credit scores negatively.
 
@@ -190,7 +191,7 @@ fig = px.box(data,
                                 "Standard":"yellow",
                                 "Good":"green"})
 fig.update_traces(quartilemethod="exclusive")
-fig.show()                    
+fig.show(height=1000, width=1200)                    
 # According to the above figure, your credit utilization ratio doesn't affect your credit scores.abs
 
 #--------------------------------------------------------------------------------------------------------------------------
@@ -205,7 +206,7 @@ fig = px.box(data,
                                 "Standard":"yellow",
                                 "Good":"green"})
 fig.update_traces(quartilemethod="exclusive")
-fig.show()
+fig.show(height=1000, width=1200)
 # So, having a long credit history results is better credit scores.
 
 #--------------------------------------------------------------------------------------------------------------------------
@@ -220,7 +221,7 @@ fig = px.box(data,
                                 "Standard":"yellow",
                                 "Good":"green"})
 fig.update_traces(quartilemethod="exclusive")
-fig.show()
+fig.show(height=1000, width=1200)
 # The amount of money you invest monthly doens't affect your credit scores.
 
 #--------------------------------------------------------------------------------------------------------------------------
@@ -235,7 +236,7 @@ fig = px.box(data,
                                 "Standard":"yellow",
                                 "Good":"green"})
 fig.update_traces(quartilemethod="exclusive")
-fig.show()
+fig.show(height=1000, width=1200)
 # So having a high monthly balance in your account at the end of the month is good for your credit scores.A Monthly\
 # balance of lesse than $250 is bad for credit scores.
 
