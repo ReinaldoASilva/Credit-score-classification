@@ -37,7 +37,7 @@
 
 - Now let's explore whether the annual income of the person impacts your credit scores or not.
 
-![alt text](Annual income.png )
+![alt text](Annual_income.png )
 
 - According to the above visualization, the more earn annually, the better your credit score is.
 
