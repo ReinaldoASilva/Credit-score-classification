@@ -41,10 +41,13 @@
 
 - According to the above visualization, the more earn annually, the better your credit score is.
 
+----------------------------------------------------------------------------------------
 
+- Now let's explore whether the monthy in-hand salary impacts credit score or not.
 
+![alt text](Number_Bank_Accounts.png)
 
-
+- Like annual income, the more monthly in-hand salary you earn, the better your credit score will become
 
 
 
