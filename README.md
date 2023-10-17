@@ -1,2 +1,3 @@
+![alt text](score.jpeg)
+
 # Credit score classification
- ![alt text](score.jpeg)
